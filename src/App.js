@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Login from './pages/Login'
+import Login2 from './pages/Login2'
+import Login3 from './pages/Login3'
+import Profile from './pages/Profile'
+import SetName from './pages/SetName'
+import Layout from './shared/ui/Layout'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='h-full'>
+			{/* <Layout>
+				<Login />
+			</Layout> */}
+			<Profile />
+		</div>
+	)
 }
 
-export default App;
+export default App
